@@ -1,0 +1,22 @@
+{
+  "name": "mwplaywrightproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test",
+    "test:specific": "npx playwright test ./tests/Imp01/playwright-intro.test.js",
+    "test:tag": "npx playwright test --grep @smoke",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
